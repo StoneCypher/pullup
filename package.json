@@ -11,7 +11,9 @@
     "url": "https://github.com/larvalabs/pullup.git"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "~0.2.10",
@@ -41,7 +43,8 @@
     "optimist": "latest",
     "timeago": "~0.1.0",
     "xmldom": "~0.1.19",
-    "marked": "~0.3.1"
+    "marked": "~0.3.1",
+    "snyk": "^1.47.0"
   },
   "devDependencies": {
     "gulp": "~3.5.2",
@@ -52,5 +55,6 @@
     "should": "~3.1.2",
     "marked": "~0.3.1",
     "grunt": "^0.4.2"
-  }
+  },
+  "snyk": true
 }
