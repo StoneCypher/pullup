@@ -37,7 +37,7 @@
     "request": "~2.33.0",
     "sendgrid": "~0.4.6",
     "underscore": "~1.5.2",
-    "connect-mongo": "~0.4.0",
+    "connect-mongo": "~0.5.2",
     "optimist": "latest",
     "timeago": "~0.1.0",
     "xmldom": "~0.1.19",
